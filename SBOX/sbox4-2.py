@@ -38,7 +38,7 @@ def getOutput(title,value,sbox):
         slist = getRow(row, sbox)
         out_dec,out_bin = getValue(slist,column)
 
-        print("\nConlusion: In row " + str(row) + add_ct + ", column " + str(column) + add_ct2 + " appears " + str(out_dec) +
+        print("\nConclusion: In row " + str(row) + add_ct + ", column " + str(column) + add_ct2 + " appears " + str(out_dec) +
               ". This determines the output; " + str(out_dec) + " is binary " + addZeros(str(out_bin),2) +
               ". Hence S-BOX(" + str(value) + ") = " + addZeros(str(out_bin),2))
 
