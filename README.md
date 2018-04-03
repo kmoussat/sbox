@@ -17,4 +17,4 @@ Step 3: Get the middle 4 bits of the input value: 101110 --> 0111
 
 Step 4: Convert 0111 to decimal to find the column 7
 
-Conlusion: In row 2, column 7 appears 8. This determines the output; 8 is binary 1000. Hence S-BOX(101110) = 1000
+Conclusion: In row 2, column 7 appears 8. This determines the output; 8 is binary 1000. Hence S-BOX(101110) = 1000
